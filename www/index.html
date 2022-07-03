@@ -1,36 +1,75 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый проект</title>
-    <link rel="stylesheet" href="style/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой первый проект</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <header class="header">
-        <span class="header-logo">Butterfly</span>
-        <nav class="header-nav">
-            <ul class="header-menu">
-                <li class="menu-item"><a href="#" class="menu-link">Каталог</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Отзывы</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">FAQ</a></li>
-            </ul>
-        </nav>
+  <header class="header">
+    <div class="header-wrap">
+      <span class="logo">Butterfly</span>
+      <nav class="header-nav">
+        <ul class="header-menu">
+          <li class="menu-item"><a href="#" class="menu-link">Каталог</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Отзывы</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <section class="promo">
+    <h1 class="promo-title">Индивидуальный пошив галстуков-бабочек</h1>
+    <a href="#" class="btn">Заказать бабочку</a>
+  </section>
 
-    </header>
+  <section class="portfolio">
+    <p class="portfolio-text">Наши работы</p>
+    <div class="portfolio-visual">
+      <img src="#" alt="Галстук-бабочка в коробке" class="portfolio-pic">
+      <img src="#" alt="Два галстука-бабочки в коробке" class="portfolio-pic">
+      <img src="#" alt="Мужчина в костюме и галстуке-бабочке" class="portfolio-pic">
+      <img src="#" alt="Кот в галстуке-бабочке" class="portfolio-pic">
+    </div>
+    <a href="#" class="btn">Все бабочки</a>
+  </section>
 
-    <section class="promo">
-      <h1 class="promo-title">Индивидуальный пошив галстуков-бабочек</h1>
-      <a href="#" class="btn">Заказать бабочку</a>
-    </section>
+  <section class="order">
+    <span class="order-title">Закажи пошив</span>
+    <p class="order-text">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На встрече
+      он снимет мерки и поможет определиться с тканью.</p>
+    <p class="order-name">Ваше имя</p>
+    <input type="text" class="order-form-name">
+    <p class="order-phone">Телефон</p>
+    <input type="tel" class="order-form-phone">
+    <button class="btn">Заказать</button>
+  </section>
 
-    <section class="portfolio">
-      <p class="portfolio-text">Наши работы</p>
+  <footer class="footer">
+    <div class="footer-wrap">
+      <div class="butterfly-wrap">
+        <span class="logo">Butterfly</span>
+        <a href="tel:+78128008080" class="footer-phone">+7 812 800-80-80</a>
+      </div>
+      <div class="social">
+        <ul class="social-list">
+          <li class="social-item"><a href="#" class="social-link"><img src="../src/styles/images/social-insta.svg"
+                alt="" class="social-pic"></a></li>
+          <li class="social-item"><a href="#" class="social-link"><img src="../src/styles/images/social-facebook.svg"
+                alt="" class="social-pic"></a></li>
+          <li class="social-item"><a href="#" class="social-link"><img src="../src/styles/images/social-telega.svg"
+                alt="" class="social-pic"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
-    </section>
-
-    <script src="scripts/script.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
+
 </html>
