@@ -1,0 +1,25 @@
+.order {
+  background-color: rgba(51, 51, 51, .1);
+}
+
+.order-inner {
+  @include inner;
+}
+
+.order-title {
+  padding-top: 130px;
+  color: $color-dark;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+
+.order-text {
+  color: $color-dark;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+}
