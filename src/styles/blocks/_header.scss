@@ -17,11 +17,7 @@
 }
 
 .header-logo {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 57px;
-  margin: 0;
+  @include logo;
 }
 
 .header-menu {
