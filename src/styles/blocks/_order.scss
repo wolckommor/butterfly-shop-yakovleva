@@ -1,5 +1,6 @@
 .order {
   background-color: rgba(51, 51, 51, .1);
+  padding: 130px 0;
 }
 
 .order-inner {
@@ -7,7 +8,7 @@
 }
 
 .order-title {
-  padding-top: 130px;
+  margin: 0;
   color: $color-dark;
   font-family: $font;
   font-weight: 400;
@@ -22,4 +23,50 @@
   font-size: 28px;
   line-height: 38px;
   text-align: center;
+}
+
+.order-form {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  margin: 0 auto;
+
+}
+
+.form-field-third {
+  flex-basis: 33,33%;
+  margin-top: 90px;
+  padding: 0 10px;
+}
+
+.form-label {
+  font-size: 20px;
+  line-height: 27px;
+  color: $color-dark;
+
+}
+
+.form-input {
+  width: 100%;
+  padding: 35px 30px;
+  font-family: inherit;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 8px;
+  color: $color-dark;
+  border-radius: 6px;
+  border: none;
+
+}
+
+.btn-order {
+  font-family: inherit;
+  color: #fff;
+  font-size: 42px;
+  line-height: 57px;
+  padding: 23px 116px;
+  background-color: $color-red;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
 }

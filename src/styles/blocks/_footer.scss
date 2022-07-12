@@ -16,9 +16,13 @@
 }
 
 .logo {
-  margin-right: auto;
-  @include logo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
   color: #fff;
+  margin: 0;
+  margin-right: auto;
 }
 
 .footer-phone {
