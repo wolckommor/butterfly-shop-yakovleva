@@ -1,0 +1,64 @@
+.portfolio {
+  padding: 130px 0;
+  text-align: center;
+}
+
+.portfolio-inner {
+  @include inner;
+}
+
+.portfolio-text {
+  font-family: $font;
+  font-size: 64px;
+  line-height: 87px;
+  color: $color-dark;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  padding: 0 10px;
+  margin-left: -10px;
+}
+
+.portfolio-card {
+  position: relative;
+  flex-basis: 25%;
+}
+
+.portfolio-desc {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  padding: 20px 48px;
+  margin: 0;
+  font-family: $font;
+  font-size: 24px;
+  line-height: 33px;
+  background-color: rgba($color-dark, .4);
+  color: #fff;
+  text-align: center;
+}
+
+.portfolio-link {
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 120px;
+  font-family: inherit;
+  color: #fff;
+  font-size: 42px;
+  line-height: 57px;
+  padding: 24px 121px;
+  background-color: $color-red;
+  text-decoration: none;
+  border-radius: 6px;
+}
