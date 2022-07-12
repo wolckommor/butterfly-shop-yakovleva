@@ -1,5 +1,47 @@
 .footer {
   background-color: $color-dark;
+  padding: 30px 0;
 }
 
+.footer-inner {
+  @include inner;
+  display: flex;
+  align-items: center;
+}
+
+.social-wrap {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.logo {
+  margin-right: auto;
+  @include logo;
+  color: #fff;
+}
+
+.footer-phone {
+  color: #fff;
+  font-family: inherit;
+  font-size: 28px;
+  line-height: 38px;
+  text-decoration: none;
+}
+
+.social-item {
+  margin-left: 15px;
+}
+
+.social-list {
+  display: flex;
+  padding-left: 45px;
+  list-style: none;
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+}
 
