@@ -1,7 +1,10 @@
 .header {
+  width: 100%;
   background-color: $color-dark;
   font-family: $font;
   color: #fff;
+  position: fixed;
+  z-index: 100;
 }
 
 .header-inner {
@@ -23,6 +26,7 @@
   line-height: 57px;
   margin: 0;
   color: #fff;
+  text-decoration: none;
 }
 
 .header-menu {
