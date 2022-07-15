@@ -16,15 +16,40 @@
   padding-bottom: 100px;
 }
 
+.filter-list {
+  display: flex;
+  list-style: none;
+  padding: 0 147px;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-item {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.filter-link {
+  white-space: nowrap;
+  color: $color-dark;
+  font-family: $font;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .portfolio-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .portfolio-item {
-  padding: 0 10px;
+  padding: 10px;
   margin-left: -10px;
+  margin-bottom: -10px;
 }
 
 .portfolio-card {
