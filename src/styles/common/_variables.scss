@@ -13,7 +13,14 @@ $color-red: #FF2D2D;
 
 // indents
 
-// breakpoints
-
 $width: 1278px;
 $gap: 10px;
+
+// breakpoints
+
+$desktop: 1280px;
+$tablet: 768px;
+$mobile: 320px;
+
+$tablet-max: $desktop - 1px;
+$mobile-max: $tablet - 1px;

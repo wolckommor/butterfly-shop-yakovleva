@@ -6,11 +6,28 @@
   background-size: cover;
   background-position: center;
 
+  @media (max-width: $tablet-max) {
+    max-width: 100%;
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
+
 }
 
 .promo-fade {
   background-color: rgba(51, 51, 51, 0.4);
   background-repeat: repeat;
+
+  @media (max-width: $tablet-max) {
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
 }
 
 .promo-inner {

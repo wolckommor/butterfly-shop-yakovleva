@@ -7,6 +7,10 @@
   color: #fff;
   position: fixed;
   z-index: 100;
+
+  @media (max-width: $tablet-max) {
+
+  }
 }
 
 .header-inner {
@@ -29,20 +33,29 @@
   margin: 0;
   color: #fff;
   text-decoration: none;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
 }
 
 .header-menu {
   display: flex;
   list-style: none;
 
-}
+  @media (max-width: $tablet-max) {
 
-.menu-item {
-  display: inline-block;
-  padding: 33px 25px;
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
 }
 
 .menu-link {
+  display: inline-block;
+  padding: 33px 25px;
   font-family: inherit;
   font-weight: 700;
   font-size: 14px;
