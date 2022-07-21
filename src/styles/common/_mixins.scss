@@ -1,5 +1,6 @@
-@mixin inner {
-  width: 1278px;
+@mixin inner ($width: 1278px) {
+  max-width: $width + $gap;
   margin: 0 auto;
+  padding: 0 $gap-half;
 }
 
