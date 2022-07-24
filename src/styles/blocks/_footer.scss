@@ -7,13 +7,32 @@
   @include inner;
   display: flex;
   align-items: center;
+
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-wrap: wrap;
+  }
+
 }
 
 .social-wrap {
   display: flex;
   align-items: center;
   margin-left: auto;
+
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-wrap: wrap;
+  }
+
 }
+
 
 .footer-logo {
   font-style: normal;
@@ -24,6 +43,17 @@
   margin: 0;
   margin-right: auto;
   text-decoration: none;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+
+  }
 }
 
 .footer-phone {
