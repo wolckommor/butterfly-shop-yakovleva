@@ -49,7 +49,14 @@
   }
 
   @media (max-width: $mobile-max) {
-
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    // top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
+    background-color: $color-dark;
   }
 }
 
@@ -63,9 +70,26 @@
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+
+  @media (max-width: $mobile-max) {
+
+    display: block;
+    text-align: center;
+  }
 }
 
 .menu-item:hover {
   background-color: $color-red;
 }
 
+.header-burger {
+  display: none;
+
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+    display: block;
+  }
+}
