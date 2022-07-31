@@ -7,7 +7,8 @@ $(document).ready(function(){
   })
 
 
-
+  $('.js-rewiews-wrap').slick({
+  });
 
 
 })

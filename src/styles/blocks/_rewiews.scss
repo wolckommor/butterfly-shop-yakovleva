@@ -1,0 +1,65 @@
+.rewiews {
+padding: 130px 0;
+}
+
+.rewiews-inner {
+  @include inner;
+}
+
+.rewiews-title {
+  margin: 0;
+  padding-bottom: 80px;
+  text-align: center;
+  font-family: $font;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 87px;
+}
+
+.rewiews-wrap {
+  width: 66.66%;
+
+  .slick-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    font-size: 0;
+    background-image: url(../../../www/images/arrow-left.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+}
+
+.rewiews-card {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.rewiews-pic {
+  flex-shrink: 0;
+  flex-basis: 50%;
+  padding-right: 20px;
+}
+
+.rewiews-info {
+
+  span {
+    font-family: $font;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+  }
+
+  p {
+      font-size: 24px;
+      line-height: 32px;
+  }
+}
