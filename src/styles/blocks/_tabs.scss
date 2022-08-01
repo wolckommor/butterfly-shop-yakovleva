@@ -1,0 +1,33 @@
+.tabs-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.tabs-item {
+  padding: 0 25px;
+  list-style: none;
+}
+
+.tabs-link {
+  color: $color-dark;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  &.active {
+    color: $color-red;
+  }
+}
+
+.tabs-content {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+

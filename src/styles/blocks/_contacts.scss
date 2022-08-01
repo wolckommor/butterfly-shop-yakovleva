@@ -1,0 +1,32 @@
+.contacts {
+  padding: 130px 0;
+}
+
+.contacts-inner {
+  @include inner;
+}
+
+.contacts-title {
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+  font-family: $font;
+  font-size: 64px;
+  line-height: 87px;
+}
+
+.tabs-content-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs-content-info {
+  flex-basis: 50%;
+  padding: 0 145px;
+
+}
+
+.tabs-content-pic {
+  width: 733px;
+  height: 420px;
+}
