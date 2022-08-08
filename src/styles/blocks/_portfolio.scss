@@ -61,6 +61,10 @@
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
+
+  &.active {
+    color: $color-red;
+  }
 }
 
 .portfolio-list {

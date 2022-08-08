@@ -78,6 +78,10 @@
   }
 }
 
+.active-link {
+  background-color: $color-red;
+}
+
 .menu-item:hover {
   background-color: $color-red;
 }

@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог</title>
+    <title>Каталог - Butterfly-shop</title>
     <link rel="stylesheet" href="style/style.css">
   </head>
 
@@ -16,7 +16,7 @@
           <a href="index.html" class="header-logo">Butterfly</a>
           <nav class="header-nav">
             <ul class="header-menu">
-              <li class="menu-item"><a href="catalog.html" class="menu-link">Каталог</a></li>
+              <li class="menu-item"><a href="catalog.html" class="menu-link active-link">Каталог</a></li>
               <li class="menu-item"><a href="rewiews.html" class="menu-link">Отзывы</a></li>
               <li class="menu-item"><a href="contacts.html" class="menu-link">Контакты</a></li>
               <li class="menu-item"><a href="faq.html" class="menu-link">FAQ</a></li>
@@ -30,90 +30,90 @@
       <div class="portfolio-inner">
         <p class="portfolio-text">Наши работы</p>
         <ul class="filter-list">
-          <li class="filter-item"><a href="#" class="filter-link">Все</a></li>
-          <li class="filter-item"><a href="#" class="filter-link">Строгие</a></li>
-          <li class="filter-item"><a href="#" class="filter-link">Веселые</a></li>
-          <li class="filter-item"><a href="#" class="filter-link">Для животных</a></li>
-          <li class="filter-item"><a href="#" class="filter-link">Детские</a></li>
-          <li class="filter-item"><a href="#" class="filter-link">Для взрослых</a></li>
+          <li class="filter-item"><a href="#" class="filter-link js-filter-link active" data-filter="all">Все</a></li>
+          <li class="filter-item"><a href="#" class="filter-link js-filter-link" data-filter="strict">Строгие</a></li>
+          <li class="filter-item"><a href="#" class="filter-link js-filter-link" data-filter="fun">Веселые</a></li>
+          <li class="filter-item"><a href="#" class="filter-link js-filter-link" data-filter="for-animals">Для животных</a></li>
+          <li class="filter-item"><a href="#" class="filter-link js-filter-link" data-filter="children">Детские</a></li>
+          <li class="filter-item"><a href="#" class="filter-link js-filter-link" data-filter="adult">Для взрослых</a></li>
         </ul>
         <div class="portfolio-list">
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item" data-type="">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/portfolio-pic-one.png" alt="Галстук-бабочка в коробке" class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка такая </p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="strict">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/portfolio-pic-two.png" alt="Два галстука-бабочки в коробке"
                   class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка растакая </p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="fun">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/portfolio-pic-three.png" alt="Мужчина в костюме и галстуке-бабочке" class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка сякая</p>
             </div>
           </div>
-          <div class="portfolio-item">
+          <div class="portfolio-item js-portfolio-item" data-type="for-animals">
             <div class="portfolio-card">
               <a href="" class="portfolio-link"><img src="images/portfolio-pic-cat.png" alt="Кот в галстуке-бабочке" class="portfolio-pic"></a>
               <p class="portfolio-desc">Кривая</p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="children">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/catalog-five.png" alt="Золотой галстук-бабочка, надетый на мужчине в костюме"
                   class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка такая </p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="adult">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/catalog-six.png" alt="Женские руки поправляют галстук-бабочку на мужчине" class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка растакая </p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="strict">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/gatalog-seven.png" alt="Голова ребенка с повязкой в виде галстука-бабочки" class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка сякая</p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="children">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/catalog-eight.png" alt="Нижняя часть лица афроамериканского мужчины в жилетке и галстуке-бабочке" class="portfolio-pic"></a>
               <p class="portfolio-desc">Кривая</p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="for-animals">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/catalog-nine.png" alt= "Подарочные наборы в коричневых тонах с галстуками-бабочками"  class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка такая</p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="adult">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/catalog-ten.png" alt="Подарочный набор с синим галстуком-бабочкой с узором"  class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка растакая</p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="strict">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/catalog-eleven.png" alt="Шея мужчины, одетого в синюю рубашку и галстук-бабочку с новогодним узором" class="portfolio-pic"></a>
               <p class="portfolio-desc">Бабочка сякая</p>
             </div>
           </div>
-          <div class="portfolio-item">
-            <div class="portfolio-card">
+          <div class="portfolio-item js-portfolio-item" data-type="fun">
+            <div class="portfolio-card js-portfolio-card">
               <a href="" class="portfolio-link"><img src="images/catalog-twelve.png" alt="Улыбающийся мужчина в костюме клоуна" class="portfolio-pic"></a>
               <p class="portfolio-desc">Кривая</p>
             </div>
           </div>
         </div>
-        <a href="#" class="btn">Больше бабочек</a>
+        <a href="#" class="btn portfolio-btn">Больше бабочек</a>
       </section>
 
       <section class="order">
@@ -159,6 +159,7 @@
         </div>
       </footer>
 
+      <script src="scripts/jquery-3.6.0.min.js"></script>
       <script src="scripts/script.js"></script>
     </body>
 
