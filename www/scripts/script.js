@@ -10,54 +10,32 @@ $(document).ready(function(){
 
   // Фильтрация
 
-    // $('.js-filter-link').on('click', function() {
+    $('.js-filter-link').on('click', function() {
 
-    //   let filter = $(this).data('filter');
-
-    //   $('.js-filter-link').removeClass('active');
-    //   $(this).addClass('active');
-
-    //   if (filter === 'all') {
-
-    //     $('.js-portfolio-item').show();
-
-    //     return;
-    //   }
-
-
-    //   $('.js.portfolio-item').each(function() {
-
-    //     let type = $(this).data('type');
-
-    //     if (filter === 'type') {
-    //       $(this).show();
-    //     } else {
-    //       $(this).hide();
-    //     }
-    //   })
-    // })
-
-
-    $('.js-filter-link').on('click', function(){
       let filter = $(this).data('filter');
 
       $('.js-filter-link').removeClass('active');
       $(this).addClass('active');
 
       if (filter === 'all') {
-        $('.js.portfolio-card').show();
+
+        $('.js-portfolio-item').show();
 
         return;
       }
-      $('.js.portfolio-card').each(function(){
+
+
+      $('.js-portfolio-item').each(function() {
+
         let type = $(this).data('type');
-        if (filter === type) {
+
+        if (filter === 'type') {
           $(this).show();
         } else {
           $(this).hide();
         }
-      });
-    });
+      })
+    })
 
 
   // Слик-слайдер
@@ -82,3 +60,17 @@ $(document).ready(function(){
 
 
 })
+
+
+let prevBtn;
+
+$('.js-faq-btn').on('click', function() {
+  if (this === prevBtn) {
+    $(this).next().slideToggle();
+  } else {
+    $('.js-faq-btn').next().slideUp();
+    $(this).next().slideDown();
+  }
+
+  prevBtn = this;
+});
